@@ -1,0 +1,24 @@
+!!!
+html
+  head
+    title Create really short URLs for sharing with your friends at RESA.AS
+    link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+    script(src='/javascripts/dist/modernizr.js')
+  body!= body
+  footer &copy; 2011 RESAAS. All Rights Reserved.
+    div(class='links')
+      a(href='http://resaas.com?ref=shortener') RESAAS
+      a(href='http://resaas.com/about?ref=shortener') About
+      a(href='http://resaas.com/team?ref=shortener') Team
+      a(href='http://resaas.com/careeers?ref=shortener') Careers
+      a(href='http://developer.resaas.com?ref=shortener') Developers
+  script(src='/javascripts/dist/dojo.js')
+  script(src='/javascripts/dist/mojo.js')
+  script(src='/javascripts/shorteh.config.js')
+  script(src='/javascripts/dist/Three.js')
+  script(src='/javascripts/dist/Detector.js')
+  script(src='/javascripts/dist/RequestAnimationFrame.js') 
+  
+  
