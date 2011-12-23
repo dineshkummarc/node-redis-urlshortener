@@ -3,6 +3,12 @@
 
   Provides URL Shortening for RESAAS Core Platform as a lightweight REST API.
 
+## Setup
+
+* clone it down
+* start redis server
+* node app.js
+
 ## License 
 
 (The MIT License)
